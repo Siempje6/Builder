@@ -12,7 +12,6 @@ class FacturatieSeeder extends Seeder
 {
     public function run(): void
     {
-        // 🧍 Eén testklant
         $klant = Klant::create([
             'naam' => 'Test Klant BV',
             'contact_persoon' => 'Jan de Vries',
@@ -26,7 +25,6 @@ class FacturatieSeeder extends Seeder
             'notitie' => 'Bel altijd eerst even voor levering.',
         ]);
 
-        // 🧾 Twee testfacturen
         for ($f = 1; $f <= 2; $f++) {
             $factuurnummer = '2025-' . str_pad($f, 3, '0', STR_PAD_LEFT);
             $datum = Carbon::now()->subDays($f * 5);
@@ -44,7 +42,6 @@ class FacturatieSeeder extends Seeder
                 'notities' => 'Automatisch aangemaakte testfactuur',
             ]);
 
-            // 🧩 Voeg regels toe aan de factuur
             $regels = [
                 ['beschrijving' => 'Website onderhoud', 'aantal' => 2, 'prijs_per_stuk' => 50.00],
                 ['beschrijving' => 'Domeinnaam registratie', 'aantal' => 1, 'prijs_per_stuk' => 12.50],
@@ -65,7 +62,6 @@ class FacturatieSeeder extends Seeder
                 $totaalExcl += $regelTotaal;
             }
 
-            // Update factuur met totalen
             $btw = round($totaalExcl * 0.21, 2);
             $factuur->update([
                 'totaal_excl_btw' => $totaalExcl,

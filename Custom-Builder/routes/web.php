@@ -13,12 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'index')->name('index');
 
-/*
-Route::get('/', function () {
-    return view('index');
-});
-*/
+
+use App\Http\Controllers\KlantController;
+
+// ---------------------------------------------------------
+// Routes voor klantenbeheer
+// ---------------------------------------------------------
+
+Route::get('/klanten', [KlantController::class, 'index'])->name('klanten.index');
+
+Route::get('/klanten/{id}', [KlantController::class, 'show'])->name('klanten.show');
+
+Route::get('/klanten/create', [KlantController::class, 'create'])->name('klanten.create');
+Route::post('/klanten', [KlantController::class, 'store'])->name('klanten.store');
+
+Route::get('/klanten/{id}/edit', [KlantController::class, 'edit'])->name('klanten.edit');
+Route::put('/klanten/{id}', [KlantController::class, 'update'])->name('klanten.update');
+
+Route::delete('/klanten/{id}', [KlantController::class, 'destroy'])->name('klanten.destroy');

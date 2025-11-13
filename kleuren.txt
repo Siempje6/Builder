@@ -1,0 +1,55 @@
+Standaard
+
+| Gebruik                       | Kleur Hex | Beschrijving                                          |
+| ----------------------------- | --------- | ----------------------------------------------------- |
+| **Achtergrond**               | #F3F4F6   | Zacht lichtgrijs, rustige basis die niet fel wit is   |
+| **Kaarten / tabellen**        | #FFFFFF   | Wit voor duidelijke contentgebieden en tabellen       |
+| **Primaire knop / actie**     | #2563EB   | Helder blauw voor belangrijke acties                  |
+| **Secundaire knop / actie**   | #3B82F6   | Iets lichtere blauw voor secundaire acties            |
+| **Tekst standaard**           | #111827   | Donkergrijs, hoog contrast en goed leesbaar           |
+| **Subtekst / details**        | #6B7280   | Medium grijs voor minder prominente info              |
+| **Succes / betaald**          | #16A34A   | Groen voor positieve status of voltooid               |
+| **Waarschuwing / openstaand** | #F59E0B   | Oranje voor actie vereist of openstaande facturen     |
+| **Fout / vervallen**          | #DC2626   | Rood voor kritieke meldingen                          |
+| **Accent / highlights**       | #8B5CF6   | Paars voor belangrijke highlights of nieuwe meldingen |
+
+
+Navigation
+
+| Element                    | Kleur Hex | Toelichting                                                                              |
+| -------------------------- | --------- | ---------------------------------------------------------------------------------------- |
+| **Standaard link**         | #2563EB   | Primaire blauw, past bij je knoppen, duidelijk zichtbaar op lichtgrijs/white achtergrond |
+| **Hover / focus**          | #1D4ED8   | Iets donkerder blauw voor hover/focus, geeft visuele feedback                            |
+| **Actieve pagina**         | #8B5CF6   | Accent paars, laat zien welke pagina momenteel actief is                                 |
+| **Subtekst / kleine info** | #6B7280   | Medium grijs voor kleine labels of ongeactiveerde links                                  |
+
+
+Footer
+
+| Element                              | Kleur Hex | Toelichting                                                   |
+| ------------------------------------ | --------- | ------------------------------------------------------------- |
+| **Header achtergrond**               | #FFFFFF   | Wit of zeer lichtgrijs (#F3F4F6) voor een frisse, lichte look |
+| **Header tekst / links**             | #111827   | Donkergrijs voor goede leesbaarheid                           |
+| **Header link hover / actieve link** | #2563EB   | Blauw voor interactie, consistent met knoppen                 |
+| **Footer achtergrond**               | #F3F4F6   | Iets donkerder lichtgrijs dan header, subtiel onderscheid     |
+| **Footer tekst / links**             | #6B7280   | Medium grijs, minder prominent dan headertekst                |
+| **Footer link hover / actieve link** | #2563EB   | Blauw, consistent met header en knoppen                       |
+| **Footer accent / iconen**           | #8B5CF6   | Paars voor opvallende actie of highlight (bv. social icons)   |
+
+
+tabellen
+
+| Element                         | Kleur Hex | Toelichting                                      |
+| ------------------------------- | --------- | ------------------------------------------------ |
+| **Tabel achtergrond**           | #FFFFFF   | Wit, zodat rijen en content goed opvallen        |
+| **Header achtergrond**          | #F3F4F6   | Lichtgrijs, subtiel contrast met content         |
+| **Header tekst**                | #111827   | Donkergrijs voor duidelijke leesbaarheid         |
+| **Rij achtergrond (even)**      | #FFFFFF   | Standaard witte rijen                            |
+| **Rij achtergrond (oneven)**    | #F9FAFB   | Lichte grijs voor zebra-stripes, helpt overzicht |
+| **Rij hover**                   | #E5E7EB   | Lichtblauw/grijs bij hover voor visuele feedback |
+| **Tekst standaard**             | #111827   | Donkergrijs, goed leesbaar                       |
+| **Subtekst / kleine info**      | #6B7280   | Medium grijs voor secundaire data                |
+| **Status succes**               | #16A34A   | Groen voor “betaald” of voltooid                 |
+| **Status waarschuwing**         | #F59E0B   | Oranje voor “openstaand”                         |
+| **Status fout**                 | #DC2626   | Rood voor “vervallen” of foutmeldingen           |
+| **Accent / belangrijke cellen** | #8B5CF6   | Paars voor belangrijke cijfers of highlights     |
